@@ -9,8 +9,8 @@ import Link from 'next/link';
 
 function Navbar() {
 	return (
-		<nav className='bg-gray-50'>
-			<div className="py-1">
+		<nav className=' bg-gray-50'>
+			<div>
 				<div className="flex flex-col justify-center text-center md:justify-around md:flex-row ">
 					<div className="flex flex-row justify-center ">
 						<div className="flex flex-row items-center gap-1 mr-8">
@@ -32,20 +32,20 @@ function Navbar() {
 				</div>
 			</div>
 			<hr className='w-full ' />
-			<div className="flex flex-row items-center px-8 py-8">
-				<div className="mx-4 basis-1/4">
+			<div className="flex flex-row items-center py-8">
+				<div className="basis-1/4">
 					<Link className='cursor-pointer' href="/"><Image src={logo} alt='logo' width={240} height={120} /></Link>
 				</div>
-				<div className="basis-2/4 mr-6">
+				<div className="basis-2/4">
 					<form className='relative flex flex-row border-none'>
 						<input type="search" className='w-full px-4 py-2 bg-white border-2 rounded-lg' placeholder='Search Products' ></input>
 						<button className='absolute text-xl right-4 top-3 hover:text-red-600'><FaSearch /></button>
 					</form>
 				</div>
 				<div className="px-4 mx-4 basis-1/4">
-					<div className="flex flex-row gap-5 items-center">
-						<BiUserCircle className='text-4xl mr-6' />
-						<BiUserCircle className='text-4xl mr-6' />
+					<div className="flex flex-row items-center gap-5">
+						<BiUserCircle className='mr-6 text-4xl' />
+						<BiUserCircle className='mr-6 text-4xl' />
 						<BiUserCircle className='text-4xl' />
 					</div>
 				</div>

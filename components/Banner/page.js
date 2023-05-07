@@ -1,5 +1,5 @@
 "use client"
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";
@@ -26,19 +26,19 @@ function Banner() {
 				}}
 			>
 				<SwiperSlide>
-					<Image src={model} width={1400} style={{ height: `calc(100vh - 80px)` }} />
+					<Image src={model} className="w-full rounded" style={{ height: `calc(100vh - 80px)` }} />
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src={drone} width={1400} style={{ height: `calc(100vh - 80px)` }} />
+					<Image src={drone} className="w-full rounded" style={{ height: `calc(100vh - 80px)` }} />
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src={chip} width={1400} style={{ height: `calc(100vh - 80px)` }} />
+					<Image src={chip} className="w-full rounded" style={{ height: `calc(100vh - 80px)` }} />
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src={control} width={1400} style={{ height: `calc(100vh - 80px)` }} />
+					<Image src={control} className="w-full rounded" style={{ height: `calc(100vh - 80px)` }} />
 				</SwiperSlide>
 				<SwiperSlide>
-					<Image src={pilot} width={1400} style={{ height: `calc(100vh - 80px)` }} />
+					<Image src={pilot} className="w-full rounded" style={{ height: `calc(100vh - 80px)` }} />
 				</SwiperSlide>
 			</Swiper>
 		</div>
