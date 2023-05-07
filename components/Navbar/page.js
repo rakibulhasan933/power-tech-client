@@ -1,10 +1,11 @@
 "use client"
 import React from 'react';
 import { BiCurrentLocation } from 'react-icons/bi';
-import { BiPhoneCall } from 'react-icons/bi';
-import { FaSearch } from 'react-icons/fa';
+import { BiPhoneCall, BiUserCircle } from 'react-icons/bi';
+import { FaSearch, } from 'react-icons/fa';
 import logo from '../assets/logo.png';
 import Image from 'next/image';
+import Link from 'next/link';
 
 function Navbar() {
 	return (
@@ -33,15 +34,21 @@ function Navbar() {
 			<hr className='w-full ' />
 			<div className="flex flex-row items-center px-8 py-8">
 				<div className="mx-4 basis-1/4">
-					<Image src={logo} alt='logo' width={240} height={120} />
+					<Link className='cursor-pointer' href="/"><Image src={logo} alt='logo' width={240} height={120} /></Link>
 				</div>
-				<div className="basis-2/4">
-					<form className='flex flex-row rounded-lg '>
-						<input type="search" className='w-full px-4 py-2 border-white' placeholder='Search' />
-						<button type="submit"><FaSearch /></button>
+				<div className="basis-2/4 mr-6">
+					<form className='relative flex flex-row border-none'>
+						<input type="search" className='w-full px-4 py-2 bg-white border-2 rounded-lg' placeholder='Search Products' ></input>
+						<button className='absolute text-xl right-4 top-3 hover:text-red-600'><FaSearch /></button>
 					</form>
 				</div>
-				<div className="px-4 mx-4 basis-1/4">Cart</div>
+				<div className="px-4 mx-4 basis-1/4">
+					<div className="flex flex-row gap-5 items-center">
+						<BiUserCircle className='text-4xl mr-6' />
+						<BiUserCircle className='text-4xl mr-6' />
+						<BiUserCircle className='text-4xl' />
+					</div>
+				</div>
 			</div>
 		</nav>
 	)
