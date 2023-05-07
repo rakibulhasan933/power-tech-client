@@ -15,13 +15,14 @@ function Banner() {
 	return (
 		<div>
 			<Swiper
+				style={{ height: `calc(100vh - 130px)` }}
 				pagination={{
 					clickable: true,
 				}} navigation={true}
 				modules={[Autoplay, Pagination, Navigation]}
 				className="mySwiper"
 				autoplay={{
-					delay: 2500,
+					delay: 2000,
 					disableOnInteraction: false,
 				}}
 			>
