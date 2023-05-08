@@ -32,20 +32,20 @@ function Navbar() {
 				</div>
 				<hr className='w-full ' />
 				<div className="flex flex-col items-center py-4 md:flex-row">
-					<div className="mr-2 basis-3/6">
-						<Link className='w-full cursor-pointer' href="/"><Image src={logo} alt='logo' height={120} /></Link>
+					<div className="mr-1 basis-1/4 ">
+						<Link className='cursor-pointer' href="/"><Image src={logo} alt='logo' height={60} width={312} /></Link>
 					</div>
-					<div className="basis-2/6">
-						<form className='relative flex flex-row w-full border-none'>
-							<input type="search" className='w-full px-4 py-2 bg-white border-2 rounded-lg' placeholder='Search Products' ></input>
+					<div className=" basis-6/12">
+						<form className='relative flex flex-row w-full mx-2 border-none'>
+							<input type="text" className='w-full px-4 py-2 bg-white border-2 rounded-lg' placeholder='Search Products' ></input>
 							<button className='absolute text-xl right-4 top-3 hover:text-blue-600'><FaSearch /></button>
 						</form>
 					</div>
-					<div className="mx-2 basis-1/6">
-						<div className="flex flex-row items-center gap-2">
-							<BiUserCircle className='mr-2 text-3xl' />
-							<BiUserCircle className='mr-2 text-3xl' />
-							<BiUserCircle className='text-3xl' />
+					<div className="ml-2 basis-1/4">
+						<div className="flex flex-row">
+							<BiUserCircle className='ml-3 text-3xl' />
+							<BiUserCircle className='mx-3 text-3xl' />
+							<BiUserCircle className='mr-3 text-3xl' />
 						</div>
 					</div>
 				</div>
