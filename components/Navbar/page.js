@@ -39,7 +39,7 @@ function Navbar() {
 					</div>
 					<div className='w-full ml-14'>
 						<form className='relative flex flex-row w-full mx-2 border-none'>
-							<input type="text" className='w-full px-4 py-2 bg-white border-2 rounded-lg' placeholder='Search Products' ></input>
+							<input type="text" className='w-full px-4 py-2 bg-white border-2 rounded-lg focus:border-blue-500' placeholder='Search Products' ></input>
 							<button className='absolute text-xl right-4 top-3 hover:text-blue-600'><FaSearch /></button>
 						</form>
 					</div>
