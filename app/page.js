@@ -1,3 +1,4 @@
+import Arrived from '@/components/Arrivied/page'
 import Banner from '@/components/Banner/page'
 import Products from '@/components/Products/page'
 import Steps from '@/components/Steps/page'
@@ -10,6 +11,7 @@ export default function Home() {
       <Steps />
       <WeekDeal />
       <Products />
+      <Arrived />
     </main>
   )
 }
