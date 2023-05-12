@@ -3,21 +3,26 @@ import Image from 'next/image';
 import React from 'react';
 import { AiOutlineArrowRight } from "react-icons/ai";
 import monitor from "../assets/monitor-highlight.jpg";
+import bg from "../assets/Mass Circles.png";
 
 function HighlightTask() {
 	return (
-		<div className=" py-36">
+		<section style={{
+			background: `url(${bg})`
+		}} className=" py-36">
 			<div className="flex items-center justify-between ">
 				<div className="flex items-center ">
-					<div className="w-3 mr-4 bg-blue-700 h-11">
+					<div className="w-3 mr-4 h-11">
 					</div>
 					<h2 className="text-5xl font-bold ">Monitor</h2>
 				</div>
-				<div className="">
+				<div style={{
+
+				}} className="">
 					<button className='flex items-center '>View more <AiOutlineArrowRight className='w-12 mr-2 ' /> </button>
 				</div>
 			</div>
-			<div className=" bg-cyan-200 px-4 rounded-lg">
+			<div className="px-4 rounded-lg">
 				<Image src={monitor} className="w-full rounded-2xl transition-opacity opacity-0  duration-[1s] px-4 mb-4"
 					onLoadingComplete={(image) => image.classList.remove("opacity-0")} alt='monitor' />
 				<div className=" flex flex-row py-6 px-1">
@@ -33,7 +38,7 @@ function HighlightTask() {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	)
 }
 
