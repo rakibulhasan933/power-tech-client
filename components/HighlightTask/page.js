@@ -3,7 +3,6 @@ import Image from 'next/image';
 import React from 'react';
 import { AiOutlineArrowRight } from "react-icons/ai";
 import monitor from "../assets/monitor-highlight.jpg";
-import bg from "../assets/Mass Circles.png";
 
 function HighlightTask() {
 	return (
