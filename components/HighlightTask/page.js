@@ -10,7 +10,7 @@ function HighlightTask() {
 		<section className=" py-36">
 			<div className="flex items-center justify-between ">
 				<div className="flex items-center ">
-					<div className="w-3 mr-4 h-11">
+					<div className="w-3 mr-4 bg-blue-600 h-11">
 					</div>
 					<h2 className="text-5xl font-bold ">Monitor</h2>
 				</div>
