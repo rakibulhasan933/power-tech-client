@@ -5,7 +5,7 @@ import 'moment-timezone';
 
 function CountDown() {
 	const [timeLeft, setTimeLeft] = useState('');
-	const endDate = '2023-06-30'; // Replace with your end date
+	const endDate = '2023-05-13'; // Replace with your end date
 	const endTime = '23:59:59';
 
 
@@ -13,7 +13,7 @@ function CountDown() {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			const now = moment();
-			const end = moment.tz(`${endDate} ${endTime}`, 'YYYY-MM-DD HH:mm:ss', 'UTC');
+			const end = moment.tz(`${endDate} ${endTime}`, 'YYYY-MM-DD HH:mm:ss', 'UTC+6');
 			const duration = moment.duration(end.diff(now));
 			const days = duration.days();
 			const hours = duration.hours();
