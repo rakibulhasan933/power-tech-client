@@ -31,7 +31,7 @@ function Arrived() {
 							contrast, even in well-lit rooms.
 						</p>
 						<h2 className="mb-1 text-xl font-bold text-orange-500">$400</h2>
-						<button className='w-1/2 text-sm text-white bg-blue-400 rounded '>Add to Cart</button>
+						<button className='w-2/3 px-4 py-2 text-sm font-bold text-white bg-blue-400 rounded '>Add to Cart</button>
 					</div>
 				</div>
 				<div className="flex flex-row pt-5 bg-blue-100 rounded px-7">
@@ -47,7 +47,7 @@ function Arrived() {
 							contrast, even in well-lit rooms.
 						</p>
 						<h2 className="mb-1 text-xl font-bold text-orange-500">$400</h2>
-						<button className='w-1/2 text-sm text-white bg-blue-400 rounded '>Add to Cart</button>
+						<button className='w-2/3 px-4 py-2 text-sm font-bold text-white bg-blue-400 rounded '>Add to Cart</button>
 					</div>
 				</div>
 				<div className="flex flex-row pt-5 bg-blue-100 rounded px-7">
@@ -63,7 +63,7 @@ function Arrived() {
 							contrast, even in well-lit rooms.
 						</p>
 						<h2 className="mb-1 text-xl font-bold text-orange-500">$400</h2>
-						<button className='w-1/2 text-sm text-white bg-blue-400 rounded '>Add to Cart</button>
+						<button className='w-2/3 px-4 py-2 text-sm font-bold text-white bg-blue-400 rounded '>Add to Cart</button>
 					</div>
 				</div>
 				<div className="flex flex-row pt-5 bg-blue-100 rounded px-7">
@@ -79,7 +79,7 @@ function Arrived() {
 							contrast, even in well-lit rooms.
 						</p>
 						<h2 className="mb-1 text-xl font-bold text-orange-500">$400</h2>
-						<button className='w-1/2 text-sm text-white bg-blue-400 rounded '>Add to Cart</button>
+						<button className='w-2/3 px-4 py-2 text-sm font-bold text-white bg-blue-400 rounded '>Add to Cart</button>
 					</div>
 				</div>
 			</div>
