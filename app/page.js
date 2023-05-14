@@ -9,7 +9,7 @@ import WeekDeal from '@/components/Weekdeal/page'
 export default function Home() {
   return (
     <main className=' bg-slate-50'>
-      <div className="px-40">
+      <div>
         <Banner />
         <Steps />
         <WeekDeal />
