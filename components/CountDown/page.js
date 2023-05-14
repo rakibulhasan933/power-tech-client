@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import moment from 'moment';
 import 'moment-timezone';
+import Marquee from 'react-fast-marquee';
 
 function CountDown() {
 	// const [timeLeft, setTimeLeft] = useState('');
@@ -45,25 +46,12 @@ function CountDown() {
 	}, [endDate, endTime]);
 
 	return (
-		<div className="text-center">
-			<div className="flex flex-row items-center justify-center gap-2 mb-2 ">
-				<div className="flex flex-col justify-center p-6 mb-2 border-2 rounded-md bg-stone-600">
-					<p className="text-5xl font-semibold text-white">0{days}</p>
-					<p className="px-2 text-2xl font-semibold">Days</p>
+		<div>
+			<Marquee>
+				<div className="rounded ">
+					<h2 className="font-bold text-orange-600 text-8xl">Flash sale!!!</h2>
 				</div>
-				<p className='text-5xl '>:</p>
-				<p className="p-6 text-5xl font-semibold text-white border-2 rounded-md bg-stone-600">{hours}</p>
-				<p className='text-5xl '>:</p>
-				<p className="p-6 text-5xl font-semibold text-white border-2 rounded-md bg-stone-600">{minutes}</p>
-				<p className='text-5xl '>:</p>
-				<p className="p-6 text-5xl font-semibold text-white border-2 rounded-md bg-stone-600">{seconds}</p>
-			</div>
-			<div className="flex flex-row items-center justify-center gap-2 mb-2">
-				<p className="px-8 uppercase">Days</p>
-				<p className="pr-10 uppercase">Hours</p>
-				<p className="pr-10 uppercase">Minutes</p>
-				<p className="uppercase">Seconds</p>
-			</div>
+			</Marquee>
 		</div>
 	)
 }
