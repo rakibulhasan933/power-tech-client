@@ -6,9 +6,9 @@ import monitor from "../assets/monitor-highlight.jpg";
 
 function HighlightTask() {
 	return (
-		<div className="mx-40">
-			<section className=" py-36">
-				<div className="flex items-center justify-between ">
+		<div className="mx-40 py-36">
+			<section className="">
+				<div className="flex items-center justify-between mb-10">
 					<div className="flex items-center ">
 						<div className="w-3 mr-4 bg-blue-600 h-11">
 						</div>

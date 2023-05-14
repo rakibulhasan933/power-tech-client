@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import moment from 'moment';
 import 'moment-timezone';
-import Marquee from 'react-fast-marquee';
 
 function CountDown() {
 	// const [timeLeft, setTimeLeft] = useState('');
@@ -47,11 +46,6 @@ function CountDown() {
 
 	return (
 		<div>
-			<Marquee>
-				<div className="rounded ">
-					<h2 className="font-bold text-orange-600 text-8xl">Flash sale!!!</h2>
-				</div>
-			</Marquee>
 		</div>
 	)
 }
