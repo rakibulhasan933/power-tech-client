@@ -17,7 +17,7 @@ function HighlightTask() {
 					<button className='flex items-center '>View more <AiOutlineArrowRight className='w-12 mr-2 ' /> </button>
 				</div>
 			</div>
-			<div className="p-4 mt-8 bg-blue-100 rounded-lg">
+			<div className="p-4 bg-blue-100 rounded-lg">
 				<div className="flex flex-col gap-4 rounded-md">
 					<div className="flex content-center p-12 rounded-2xl">
 						<Image src={monitor} className=" w-full  transition-opacity opacity-0   duration-[1s] px-4 mb-4"
@@ -25,7 +25,7 @@ function HighlightTask() {
 					</div>
 					<div className="flex flex-row p-8 gap-x-5">
 						<div className="px-4 basis-1/3">
-							<h3 className="text-4xl font-medium ">60<span className="text-orange-700  animate-ping">”</span> Monitors</h3>
+							<h3 className="text-4xl font-medium ">60<span>”</span> Monitors</h3>
 							<h2 className="my-6 text-2xl font-bold text-orange-500 ">$12,285.75</h2>
 							<button className='w-full px-4 py-3 text-base font-bold text-white uppercase bg-blue-500 rounded-md '>Add to Cart</button>
 						</div>
