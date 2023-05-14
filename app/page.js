@@ -16,7 +16,7 @@ export default function Home() {
         <Products />
         <Arrived />
         <HighlightTask />
-        <CountDown endDate="2023-05-14" endTime="11:59:59" />
+        <CountDown />
       </div>
     </main>
   )
