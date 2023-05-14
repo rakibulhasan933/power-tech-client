@@ -17,18 +17,17 @@ function HighlightTask() {
 					<button className='flex items-center '>View more <AiOutlineArrowRight className='w-12 mr-2 ' /> </button>
 				</div>
 			</div>
-			<div className="relative rounded-lg pt-52">
-				<div className="pt-40 bg-blue-100 rounded-md">
-					<div className="absolute top-0 left-0 p-12 rounded-2xl">
+			<div className="p-4 mt-8 bg-blue-100 rounded-lg">
+				<div className="flex flex-col gap-4 rounded-md">
+					<div className="flex content-center p-12 rounded-2xl">
 						<Image src={monitor} className=" w-full  transition-opacity opacity-0   duration-[1s] px-4 mb-4"
 							onLoadingComplete={(image) => image.classList.remove("opacity-0")} alt='monitor' />
 					</div>
-
-					<div className="flex flex-row pt-20 pb-5 px-14 ">
-						<div className="px-2 basis-1/3">
-							<h3 className="text-4xl font-medium ">60<span className="text-blue-600 animate-ping">”</span> Monitors</h3>
+					<div className="flex flex-row p-8 gap-x-5">
+						<div className="px-4 basis-1/3">
+							<h3 className="text-4xl font-medium ">60<span className="text-orange-700  animate-ping">”</span> Monitors</h3>
 							<h2 className="my-6 text-2xl font-bold text-orange-500 ">$12,285.75</h2>
-							<button className='w-1/2 px-3 py-2 text-base font-bold text-white bg-blue-500 rounded-md '>Add to Cart</button>
+							<button className='w-full px-4 py-3 text-base font-bold text-white uppercase bg-blue-500 rounded-md '>Add to Cart</button>
 						</div>
 						<div className="p-2 basis-2/3">
 							<p className="text-base font-medium">
