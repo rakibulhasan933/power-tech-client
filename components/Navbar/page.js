@@ -10,7 +10,7 @@ import Link from 'next/link';
 function Navbar() {
 	return (
 		<nav>
-			<div className=''>
+			<div className='mx-40'>
 				<div>
 					<div className="flex items-center justify-between">
 						<div className="flex items-center">
