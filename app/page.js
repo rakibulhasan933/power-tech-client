@@ -8,14 +8,16 @@ import WeekDeal from '@/components/Weekdeal/page'
 
 export default function Home() {
   return (
-    <main>
-      <Banner />
-      <Steps />
-      <WeekDeal />
-      <Products />
-      <Arrived />
-      <HighlightTask />
-      <CountDown endDate="2023-05-14" endTime="11:59:59" />
+    <main className=' bg-slate-50'>
+      <div className="px-40">
+        <Banner />
+        <Steps />
+        <WeekDeal />
+        <Products />
+        <Arrived />
+        <HighlightTask />
+        <CountDown endDate="2023-05-14" endTime="11:59:59" />
+      </div>
     </main>
   )
 }

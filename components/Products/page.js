@@ -6,7 +6,7 @@ import drone from "../assets/drone.jpg";
 
 function Products() {
 	return (
-		<div className='py-36'>
+		<div className='py-20'>
 			<div className="flex items-center justify-between ">
 				<div className="flex items-center ">
 					<div className="w-3 mr-4 bg-blue-700 h-11">

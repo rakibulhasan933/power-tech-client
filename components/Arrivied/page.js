@@ -6,7 +6,7 @@ import mac from "../assets/macbook.jpg";
 
 function Arrived() {
 	return (
-		<div className='pt-36'>
+		<div className='pt-20'>
 			<div className="flex items-center justify-between ">
 				<div className="flex items-center ">
 					<div className="w-3 mr-4 bg-blue-700 h-11">
