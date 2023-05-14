@@ -54,8 +54,13 @@ function CountDown() {
 					<p className="mb-6 text-xl font-light ">Unbelievable discounts on laptops in our exclusive flash sale!</p>
 				</div>
 				<Image src={laptop} className='w-full rounded-xl' alt='laptop' />
-				<div className="">
-					<h2>Sale end in</h2>
+				<div className="py-10">
+					<div className="flex flex-row gap-5 ">
+						<h2 className="">Sale end in</h2>
+						<div className="">
+							<h2 className="">{days}</h2>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
