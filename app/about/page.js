@@ -7,7 +7,7 @@ import presentation from "../../components/assets/presentation.jpg";
 import products from "../../components/assets/products.jpg";
 
 export const metadata = {
-	title: 'About',
+	title: 'About - PowerTech',
 };
 
 function About() {
