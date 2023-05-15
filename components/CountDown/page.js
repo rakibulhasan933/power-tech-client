@@ -55,33 +55,28 @@ function CountDown() {
 				</div>
 				<Image src={laptop} className='w-full rounded-xl' alt='laptop' />
 				<div className="py-10">
-					<div className="flex flex-row gap-5">
-						<h2 className="">Sale end in</h2>
+					<div className="flex flex-row gap-5 ">
+						<div className="flex flex-row gap-2">
+							<h2 className="p-2 text-6xl font-bold">Sale end in</h2>
+						</div>
 						<div className="flex flex-row gap-2">
 							<div className="flex flex-col items-center gap-1 ">
-								<h2 className="px-8 py-4 font-bold text-orange-700 rounded-lg text-8xl bg-slate-200">{days}</h2>
-								<h2 className="">Days</h2>
+								<h2 className="px-8 py-4 text-6xl font-bold text-orange-700 rounded-lg bg-slate-200">{days}</h2>
+								<h2 className="text-xl font-semibold">Days</h2>
 							</div>
 							<div className="flex flex-col items-center">
-								<h2 className="font-extrabold text-8xl">:</h2>
+								<h2 className="py-2 text-6xl font-extrabold">:</h2>
 							</div>
 							<div className="flex flex-col items-center gap-1">
-								<h2 className="px-8 py-4 font-bold text-orange-700 rounded-lg text-8xl bg-slate-200">{days}</h2>
-								<h2 className="">Days</h2>
+								<h2 className="px-8 py-4 text-6xl font-bold text-orange-700 rounded-lg bg-slate-200">{hours}</h2>
+								<h2 className="text-xl font-semibold">Hours</h2>
 							</div>
 							<div className="flex flex-col items-center">
-								<h2 className="font-extrabold text-8xl">:</h2>
+								<h2 className="py-2 text-6xl font-extrabold">:</h2>
 							</div>
 							<div className="flex flex-col items-center gap-1">
-								<h2 className="px-8 py-4 font-bold text-orange-700 rounded-lg text-8xl bg-slate-200">{days}</h2>
-								<h2 className="">Days</h2>
-							</div>
-							<div className="flex flex-col items-center">
-								<h2 className="font-extrabold text-8xl">:</h2>
-							</div>
-							<div className="flex flex-col items-center gap-1">
-								<h2 className="px-8 py-4 font-bold text-orange-700 rounded-lg text-8xl bg-slate-200">{days}</h2>
-								<h2 className="">Days</h2>
+								<h2 className="px-8 py-4 text-6xl font-bold text-orange-700 rounded-lg bg-slate-200">{minutes}</h2>
+								<h2 className="text-xl font-semibold">Minutes</h2>
 							</div>
 						</div>
 					</div>
