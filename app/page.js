@@ -2,6 +2,7 @@ import Arrived from '@/components/Arrivied/page'
 import Banner from '@/components/Banner/page'
 import CountDown from '@/components/CountDown/page'
 import HighlightTask from '@/components/HighlightTask/page'
+import Navbar from '@/components/Navbar/page'
 import Offer from '@/components/Offer'
 import Products from '@/components/Products/page'
 import Steps from '@/components/Steps/page'
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <main className=' bg-slate-50'>
       <div>
+        <Navbar />
         <Banner />
         <Steps />
         <WeekDeal />
