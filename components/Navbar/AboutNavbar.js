@@ -6,6 +6,8 @@ import logo from '../assets/logo.png';
 import Image from 'next/image';
 import Link from 'next/link';
 
+
+
 function AboutNavbar() {
 	return (
 		<nav>
