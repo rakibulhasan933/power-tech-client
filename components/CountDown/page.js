@@ -6,17 +6,12 @@ import Image from 'next/image';
 import laptop from "../assets/laptop-font.jpg";
 
 function CountDown() {
-	// const [timeLeft, setTimeLeft] = useState('');
 	const [days, setDays] = useState('');
 	const [hours, setHours] = useState('');
 	const [minutes, setMinutes] = useState('');
 	const [seconds, setSeconds] = useState('');
-	const endDate = '2023-05-15'; // Replace with your end date
+	const endDate = '2023-05-15';
 	const endTime = '23:59:59';
-
-	// console.log(days, hours, minutes, seconds);
-
-
 
 	useEffect(() => {
 		const interval = setInterval(() => {
