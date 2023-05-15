@@ -31,6 +31,11 @@ function About() {
 					<p className=" text-base font-light px-8 mt-[-10px]">
 						Our vision at Power Tech is to be the catalyst for a global energy transformation. We envision a future where sustainable energy is the primary source powering the world, minimizing reliance on fossil fuels and mitigating the impact of climate change. Through our unwavering commitment to innovation, we strive to create a paradigm shift in the energy industry, leading the way towards a cleaner, greener, and more sustainable world. We envision a world where renewable energy sources such as solar, wind, and hydroelectric power are harnessed to their fullest potential. Our aim is to make these clean energy alternatives more accessible, affordable, and efficient, enabling businesses and individuals to adopt sustainable practices without compromising on performance or convenience.
 					</p>
+					<h2 className=" text-5xl font-semibold">Our Products</h2>
+					<Image src={products} className=' w-full rounded-lg' alt='people' />
+					<p className=" text-base font-light px-8 mt-[-10px]">
+						PowerTech was founded in 1995 by a group of visionary engineers with a shared passion for revolutionizing the energy industry. The company's journey began with humble origins in a small garage, where the founders, John Anderson and Sarah Mitchell, dedicated themselves to exploring innovative energy solutions. Driven by their belief in the power of renewable energy, John and Sarah embarked on an ambitious mission to develop a breakthrough technology that could harness the untapped potential of ocean waves. After years of extensive research  successfully created a prototype device capable of converting wave energy into electricity with remarkable efficiency.
+					</p>
 				</div>
 			</div>
 		</div>
