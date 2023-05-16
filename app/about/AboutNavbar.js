@@ -5,6 +5,7 @@ import { BiPhoneCall } from 'react-icons/bi';
 import logo from '../../components/assets/logo.png';
 import Image from 'next/image';
 import Link from 'next/link';
+import { AiOutlineHome } from 'react-icons/ai';
 
 
 
