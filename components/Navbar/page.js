@@ -3,6 +3,7 @@ import React from 'react';
 import { BiCurrentLocation } from 'react-icons/bi';
 import { BiPhoneCall, BiUserCircle } from 'react-icons/bi';
 import { FaSearch, } from 'react-icons/fa';
+import { AiOutlineHome } from "react-icons/ai";
 import logo from '../assets/logo.png';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -14,16 +15,22 @@ function Navbar() {
 				<div>
 					<div className="flex items-center justify-between">
 						<div className="flex items-center">
-							<div className="flex flex-row items-center mr-4 ">
-								<BiCurrentLocation className='text-xs ' />
-								<p className='text-xs'>Bangladesh</p>
+							<div className="flex flex-row items-center mr-8 ">
+								<BiCurrentLocation className='text-sm ' />
+								<p className='text-sm'>Bangladesh</p>
 							</div>
 							<div className="flex flex-row items-center ">
-								<BiPhoneCall className='text-xs ' />
-								<p className='text-xs '>01915-106-105</p>
+								<BiPhoneCall className='text-sm ' />
+								<p className='text-sm '>01915-106-105</p>
 							</div>
 						</div>
-						<div className="flex items-center py-2 md:flex-row">
+						<div className="flex items-center py-3 md:flex-row">
+							<Link href='/'>
+								<div className="flex flex-row items-center justify-center gap-0 hover:border-b-4 hover:border-blue-600 hover:text-blue-600">
+									<AiOutlineHome className='flex items-center pb-1 text-2xl ' />
+									<p className="text-xs font-medium cursor-pointer">Home</p>
+								</div>
+							</Link>
 							<Link href='about'>
 								<p className="mx-4 text-xs font-medium cursor-pointer hover:border-b-4 hover:border-blue-600 hover:text-blue-600">About</p>
 							</Link>
