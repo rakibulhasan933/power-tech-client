@@ -45,8 +45,8 @@ function CountDown() {
 		<div className='mx-40'>
 			<div className='flex flex-col items-center gap-4 '>
 				<div className="grid gap-2 justify-items-center">
-					<h2 className="mb-6 text-4xl font-normal">Hurry, limited time offer</h2>
-					<p className="mb-6 text-xl font-light ">Unbelievable discounts on laptops in our exclusive flash sale!</p>
+					<h2 className="mb-3 text-4xl font-normal">Hurry, limited time offer</h2>
+					<p className="mb-3 text-xl font-light ">Unbelievable discounts on laptops in our exclusive flash sale!</p>
 				</div>
 				<Image src={laptop} className='w-full rounded-xl' alt='laptop' />
 				<div className="py-10">
