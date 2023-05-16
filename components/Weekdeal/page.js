@@ -1,7 +1,7 @@
 "use client";
 import Image from 'next/image';
 import React from 'react'
-import { AiOutlineArrowRight } from "react-icons/ai";
+import { BsArrowRight } from "react-icons/bs";
 import monitor from "../assets/monitor.jpg";
 
 function WeekDeal() {
@@ -10,12 +10,13 @@ function WeekDeal() {
 			<div className="pt-10">
 				<div className="flex items-center justify-between ">
 					<div className="flex items-center ">
-						<div className="w-3 mr-4 bg-blue-700 h-11">
+						<div className="w-3 mr-4 bg-blue-400 h-11">
 						</div>
 						<h2 className="text-5xl font-bold ">Grab deal of the week!!</h2>
 					</div>
-					<div className="">
-						<button className='flex items-center '>Details <AiOutlineArrowRight className='w-12 mr-2 ' /> </button>
+					<div className="flex items-center">
+						<button className='flex items-center text-lg'>Details</button>
+						<BsArrowRight className='w-full text-lg' />
 					</div>
 				</div>
 				<div className="flex flex-row pt-8">
