@@ -28,6 +28,12 @@ function AboutNavbar() {
 							<Link className='cursor-pointer' href="/"><Image src={logo} alt='logo' height={40} width={312} /></Link>
 						</div>
 						<div className="flex items-center py-2 md:flex-row">
+							<Link href='/'>
+								<div className="flex flex-row items-center justify-center gap-0 hover:border-b-4 hover:border-blue-600 hover:text-blue-600">
+									<AiOutlineHome className='flex items-center pb-1 text-2xl ' />
+									<p className="text-xs font-medium cursor-pointer">Home</p>
+								</div>
+							</Link>
 							<Link href='about'>
 								<p className="mx-4 text-xs font-medium text-blue-600 border-b-4 border-blue-600 cursor-pointer">About</p>
 							</Link>
