@@ -44,7 +44,7 @@ function Navbar() {
 					</div>
 				</div>
 				<hr className='w-full ' />
-				<div className="flex flex-row items-center justify-between py-4">
+				<div className="flex flex-row items-center justify-between py-8">
 					<div className='mr-4' >
 						<Link className='cursor-pointer' href="/"><Image src={logo} alt='logo' height={60} width={312} /></Link>
 					</div>
