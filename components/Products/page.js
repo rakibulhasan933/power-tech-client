@@ -29,6 +29,51 @@ function Products() {
 							<button className="w-full px-12 py-4 text-lg font-bold text-white bg-blue-400 rounded">Add To Cart</button>
 						</div>
 					</div>
+					<div className="flex flex-col justify-center rounded">
+						<Image src={drone} className=" w-full rounded transition-opacity opacity-0 duration-[1s] mb-8"
+							onLoadingComplete={(image) => image.classList.remove("opacity-0")} alt='drone' />
+						<div className="flex flex-col items-center">
+							<h3 className="mb-5 text-xl font-medium ">Drone</h3>
+							<h2 className="mb-5 text-3xl font-semibold text-orange-500 ">$305</h2>
+							<button className="w-full px-12 py-4 text-lg font-bold text-white bg-blue-400 rounded">Add To Cart</button>
+						</div>
+					</div>
+					<div className="flex flex-col justify-center rounded">
+						<Image src={drone} className=" w-full rounded transition-opacity opacity-0 duration-[1s] mb-8"
+							onLoadingComplete={(image) => image.classList.remove("opacity-0")} alt='drone' />
+						<div className="flex flex-col items-center">
+							<h3 className="mb-5 text-xl font-medium ">Drone</h3>
+							<h2 className="mb-5 text-3xl font-semibold text-orange-500 ">$305</h2>
+							<button className="w-full px-12 py-4 text-lg font-bold text-white bg-blue-400 rounded">Add To Cart</button>
+						</div>
+					</div>
+					<div className="flex flex-col justify-center rounded">
+						<Image src={drone} className=" w-full rounded transition-opacity opacity-0 duration-[1s] mb-8"
+							onLoadingComplete={(image) => image.classList.remove("opacity-0")} alt='drone' />
+						<div className="flex flex-col items-center">
+							<h3 className="mb-5 text-xl font-medium ">Drone</h3>
+							<h2 className="mb-5 text-3xl font-semibold text-orange-500 ">$305</h2>
+							<button className="w-full px-12 py-4 text-lg font-bold text-white bg-blue-400 rounded">Add To Cart</button>
+						</div>
+					</div>
+					<div className="flex flex-col justify-center rounded">
+						<Image src={drone} className=" w-full rounded transition-opacity opacity-0 duration-[1s] mb-8"
+							onLoadingComplete={(image) => image.classList.remove("opacity-0")} alt='drone' />
+						<div className="flex flex-col items-center">
+							<h3 className="mb-5 text-xl font-medium ">Drone</h3>
+							<h2 className="mb-5 text-3xl font-semibold text-orange-500 ">$305</h2>
+							<button className="w-full px-12 py-4 text-lg font-bold text-white bg-blue-400 rounded">Add To Cart</button>
+						</div>
+					</div>
+					<div className="flex flex-col justify-center rounded">
+						<Image src={drone} className=" w-full rounded transition-opacity opacity-0 duration-[1s] mb-8"
+							onLoadingComplete={(image) => image.classList.remove("opacity-0")} alt='drone' />
+						<div className="flex flex-col items-center">
+							<h3 className="mb-5 text-xl font-medium ">Drone</h3>
+							<h2 className="mb-5 text-3xl font-semibold text-orange-500 ">$305</h2>
+							<button className="w-full px-12 py-4 text-lg font-bold text-white bg-blue-400 rounded">Add To Cart</button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

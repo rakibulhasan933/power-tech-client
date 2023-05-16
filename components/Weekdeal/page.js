@@ -34,7 +34,7 @@ function WeekDeal() {
 						<h3 className="mb-6 text-4xl font-extrabold text-orange-600 ">
 							$2,731
 						</h3>
-						<button className='w-1/2 px-6 py-3 text-xl font-bold text-white bg-blue-400 rounded '>Shop Now</button>
+						<button className='w-1/2 px-6 py-3 text-lg font-bold text-white bg-blue-400 rounded '>Shop Now</button>
 					</div>
 				</div>
 			</div>
