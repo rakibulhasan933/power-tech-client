@@ -1,21 +1,21 @@
 "use client"
 import Image from 'next/image';
 import React from 'react';
-import { AiOutlineArrowRight } from "react-icons/ai";
+import { BsArrowRight } from "react-icons/bs";
 import mac from "../assets/macbook.jpg";
 
 function Arrived() {
 	return (
 		<div className="mx-40">
 			<div className='pt-20'>
-				<div className="flex items-center justify-between ">
+				<div className="flex items-center justify-between">
 					<div className="flex items-center ">
-						<div className="w-3 mr-4 bg-blue-700 h-11">
+						<div className="w-3 mr-4 bg-blue-400 h-11">
 						</div>
 						<h2 className="text-5xl font-bold ">Newly Arrived</h2>
 					</div>
 					<div className="">
-						<button className='flex items-center '>View more <AiOutlineArrowRight className='w-12 mr-2 ' /> </button>
+						<button className='flex items-center'>more <BsArrowRight className='w-full ' /> </button>
 					</div>
 				</div>
 				<div className="grid grid-cols-2 gap-6 pt-20">
@@ -31,8 +31,8 @@ function Arrived() {
 							<p className="my-2 text-xs font-light">See rich, vibrant colors and incredible
 								contrast, even in well-lit rooms.
 							</p>
-							<h2 className="my-2 text-xl font-bold text-orange-500">$400</h2>
-							<button className='w-full px-8 py-4 text-sm font-bold text-white uppercase bg-blue-400 rounded '>Add to Cart</button>
+							<h2 className="mb-6 text-xl font-bold text-orange-500">$400</h2>
+							<button className='w-full px-8 py-4 text-lg font-bold text-white bg-blue-400 rounded '>Add To Cart</button>
 						</div>
 					</div>
 					<div className="flex flex-row p-4 bg-blue-100 rounded">
@@ -47,8 +47,8 @@ function Arrived() {
 							<p className="my-2 text-xs font-light">See rich, vibrant colors and incredible
 								contrast, even in well-lit rooms.
 							</p>
-							<h2 className="my-2 text-xl font-bold text-orange-500">$400</h2>
-							<button className='w-full px-8 py-4 text-sm font-bold text-white uppercase bg-blue-400 rounded '>Add to Cart</button>
+							<h2 className="mb-6 text-xl font-bold text-orange-500">$400</h2>
+							<button className='w-full px-8 py-4 text-lg font-bold text-white bg-blue-400 rounded '>Add To Cart</button>
 						</div>
 					</div>
 					<div className="flex flex-row p-4 bg-blue-100 rounded">
@@ -63,8 +63,8 @@ function Arrived() {
 							<p className="my-2 text-xs font-light">See rich, vibrant colors and incredible
 								contrast, even in well-lit rooms.
 							</p>
-							<h2 className="my-2 text-xl font-bold text-orange-500">$400</h2>
-							<button className='w-full px-8 py-4 text-sm font-bold text-white uppercase bg-blue-400 rounded '>Add to Cart</button>
+							<h2 className="mb-6 text-xl font-bold text-orange-500">$400</h2>
+							<button className='w-full px-8 py-4 text-lg font-bold text-white bg-blue-400 rounded '>Add To Cart</button>
 						</div>
 					</div>
 					<div className="flex flex-row p-4 bg-blue-100 rounded">
@@ -79,8 +79,8 @@ function Arrived() {
 							<p className="my-2 text-xs font-light">See rich, vibrant colors and incredible
 								contrast, even in well-lit rooms.
 							</p>
-							<h2 className="my-2 text-xl font-bold text-orange-500">$400</h2>
-							<button className='w-full px-8 py-4 text-sm font-bold text-white uppercase bg-blue-400 rounded '>Add to Cart</button>
+							<h2 className="mb-6 text-xl font-bold text-orange-500">$400</h2>
+							<button className='w-full px-8 py-4 text-lg font-bold text-white bg-blue-400 rounded '>Add To Cart</button>
 						</div>
 					</div>
 				</div>

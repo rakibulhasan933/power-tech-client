@@ -8,14 +8,15 @@ function HighlightTask() {
 	return (
 		<div className="mx-40 py-36">
 			<section className="">
-				<div className="flex items-center justify-between mb-10">
+				<div className="flex flex-row justify-between mb-10">
 					<div className="flex items-center ">
-						<div className="w-3 mr-4 bg-blue-600 h-11">
+						<div className="w-3 mr-4 bg-blue-400 h-11">
 						</div>
 						<h2 className="text-5xl font-bold ">Monitor</h2>
 					</div>
-					<div className="">
-						<button className='flex items-center '>View more <AiOutlineArrowRight className='w-12 mr-2 ' /> </button>
+					<div className="flex flex-row items-center">
+						<button className=''>more</button>
+						<AiOutlineArrowRight className='w-full ' />
 					</div>
 				</div>
 				<div className="p-4 bg-blue-100 rounded-lg">
