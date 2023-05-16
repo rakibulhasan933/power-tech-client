@@ -26,7 +26,7 @@ function Navbar() {
 						</div>
 						<div className="flex items-center py-3 md:flex-row">
 							<Link href='/'>
-								<div className="flex flex-row items-center justify-center gap-0 hover:border-b-4 hover:border-blue-600 hover:text-blue-600">
+								<div className="flex flex-row items-center justify-center gap-0 text-blue-600 border-b-4 border-blue-600">
 									<AiOutlineHome className='flex items-center pb-1 text-2xl ' />
 									<p className="text-xs font-medium cursor-pointer">Home</p>
 								</div>
