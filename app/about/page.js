@@ -15,7 +15,7 @@ function About() {
 		<div className='mx-40 '>
 			<AboutNavbar />
 			<div className="my-12 ">
-				<div className="flex flex-col items-center justify-center gap-20 ">
+				<div className="flex flex-col items-center justify-center gap-10 text-center ">
 					<h2 className="flex justify-center text-5xl font-semibold ">Who We are</h2>
 					<Image src={team} className='flex justify-center w-full rounded-lg ' alt='people' />
 					<p className=" text-base font-light flex justify-center px-8 mt-[-10px]">

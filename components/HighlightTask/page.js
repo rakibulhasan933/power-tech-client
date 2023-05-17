@@ -6,7 +6,7 @@ import monitor from "../assets/monitor-highlight.jpg";
 
 function HighlightTask() {
 	return (
-		<section
+		<div
 			className="mx-40 py-36">
 			<div className="flex flex-row justify-between mb-10">
 				<div className="flex items-center ">
@@ -30,7 +30,7 @@ function HighlightTask() {
 							<div className="px-4 basis-1/3">
 								<h3 className="text-4xl font-medium ">60<span>”</span> Monitors</h3>
 								<h2 className="my-6 text-2xl font-bold text-orange-500 ">$12,285.75</h2>
-								<button className='w-3/4 px-8 py-4 text-lg font-bold text-white bg-blue-500 rounded '>Add To Cart</button>
+								<button className='w-3/4 px-8 py-4 text-lg font-bold text-white bg-blue-400 rounded '>Add To Cart</button>
 							</div>
 							<div className="p-2 basis-2/3">
 								<p className="text-base font-light">
@@ -41,7 +41,7 @@ function HighlightTask() {
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
 	)
 }
 
