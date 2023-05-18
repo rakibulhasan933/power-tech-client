@@ -2,6 +2,7 @@ import React from 'react'
 import logo from "../components/assets/logo.png";
 import Image from 'next/image';
 import apps from "../components/assets/google and apple.png";
+import brands from "../components/assets/payment.png";
 import { BsFacebook, BsGoogle, BsYoutube, BsTwitter, BsInstagram, } from 'react-icons/bs';
 function Footer() {
 	return (
@@ -55,7 +56,7 @@ function Footer() {
 						</div>
 						<h2 className="mb-6 text-2xl font-bold text-blue-700">Get Our App</h2>
 						<div className="flex flex-col gap-2 px-4">
-							<Image src={apps} width={132} height={82} alt='apps' />
+							<Image src={apps} width={132} height={42} alt='apps' />
 						</div>
 					</div>
 				</div>
@@ -65,7 +66,7 @@ function Footer() {
 						<p className="">©PowerTech 2023. All Rights Reserved.</p>
 					</div>
 					<div className="items-center mx-4">
-						Brand photos
+						<Image src={brands} width={446} height={30} alt='brands' />
 					</div>
 				</div>
 			</div>
