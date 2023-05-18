@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from "../components/assets/logo.png";
 import Image from 'next/image';
-import { FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa';
+import apps from "../components/assets/google and apple.png";
 import { BsFacebook, BsGoogle, BsYoutube, BsTwitter, BsInstagram, } from 'react-icons/bs';
 function Footer() {
 	return (
@@ -47,11 +47,15 @@ function Footer() {
 					</div>
 					<div className="flex flex-col justify-start">
 						<h2 className="mb-6 text-2xl font-bold text-blue-700">Subscribe Us</h2>
-						<div className="flex flex-row gap-2 px-2">
-							<BsFacebook className='mx-2 text-3xl text-blue-700 cursor-pointer hover:text-4xl ' />
-							<BsYoutube className='mx-2 text-3xl text-red-700 cursor-pointer hover:text-4xl' />
-							<BsInstagram className='mx-2 text-3xl text-red-700 cursor-pointer hover:text-4xl ' />
-							<BsTwitter className='ml-2 text-3xl text-blue-700 cursor-pointer hover:text-4xl' />
+						<div className="flex flex-row gap-2 px-2 mb-6">
+							<BsFacebook className='mr-2 text-3xl text-blue-700 cursor-pointer hover:text-4xl ' />
+							<BsYoutube className='mr-2 text-3xl text-red-700 cursor-pointer hover:text-4xl' />
+							<BsInstagram className='mr-2 text-3xl text-red-700 cursor-pointer hover:text-4xl ' />
+							<BsTwitter className='text-3xl text-blue-700 cursor-pointer hover:text-4xl' />
+						</div>
+						<h2 className="mb-6 text-2xl font-bold text-blue-700">Get Our App</h2>
+						<div className="flex flex-col gap-2 px-4">
+							<Image src={apps} width={132} height={82} alt='apps' />
 						</div>
 					</div>
 				</div>
