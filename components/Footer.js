@@ -10,15 +10,15 @@ function Footer() {
 					<Image src={logo} width={312} height={60} alt='logo' />
 				</div>
 				<div className="flex flex-row justify-between">
-					<div className="flex flex-col justify-start gap-2 ">
+					<div className="flex flex-col justify-start">
 						<h2 className="text-2xl font-bold text-blue-400">PowerTech</h2>
 						<ul>
-							<li className="">Home</li>
-							<li className="">Shop</li>
-							<li className="">Awards</li>
-							<li className="">About Us</li>
-							<li className="">Our Factory</li>
-							<li className="">Global Operations</li>
+							<li className="mb-6 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Home</li>
+							<li className="mb-6">Shop</li>
+							<li className="mb-6">Awards</li>
+							<li className="mb-6">About Us</li>
+							<li className="mb-6">Our Factory</li>
+							<li className="mb-6">Global Operations</li>
 						</ul>
 					</div>
 					<div className="flex flex-col justify-start gap-2 ">
