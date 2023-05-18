@@ -11,47 +11,36 @@ function Footer() {
 				</div>
 				<div className="flex flex-row justify-between">
 					<div className="flex flex-col justify-start">
-						<h2 className="text-2xl font-bold text-blue-400">PowerTech</h2>
+						<h2 className="mb-6 text-2xl font-bold text-blue-700">PowerTech</h2>
 						<ul>
-							<li className="mb-6 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Home</li>
-							<li className="mb-6">Shop</li>
-							<li className="mb-6">Awards</li>
-							<li className="mb-6">About Us</li>
-							<li className="mb-6">Our Factory</li>
-							<li className="mb-6">Global Operations</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Home</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Shop</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Awards</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">About Us</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Our Factory</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Global Operations</li>
 						</ul>
 					</div>
-					<div className="flex flex-col justify-start gap-2 ">
-						<h2 className="text-2xl font-bold text-blue-400">PowerTech</h2>
+					<div className="flex flex-col justify-start">
+						<h2 className="mb-6 text-2xl font-bold text-blue-700">Support</h2>
 						<ul>
-							<li className="">Home</li>
-							<li className="">Shop</li>
-							<li className="">Awards</li>
-							<li className="">About Us</li>
-							<li className="">Our Factory</li>
-							<li className="">Global Operations</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Contacts</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Emergency</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Sales Outlets</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Customers Care</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Shop Branches</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Local Providers</li>
 						</ul>
 					</div>
-					<div className="flex flex-col justify-start gap-2 ">
-						<h2 className="text-2xl font-bold text-blue-400">PowerTech</h2>
+					<div className="flex flex-col justify-start">
+						<h2 className="mb-6 text-2xl font-bold text-blue-700">Newsroom</h2>
 						<ul>
-							<li className="">Home</li>
-							<li className="">Shop</li>
-							<li className="">Awards</li>
-							<li className="">About Us</li>
-							<li className="">Our Factory</li>
-							<li className="">Global Operations</li>
-						</ul>
-					</div>
-					<div className="flex flex-col justify-start gap-2 ">
-						<h2 className="text-2xl font-bold text-blue-400">PowerTech</h2>
-						<ul>
-							<li className="">Home</li>
-							<li className="">Shop</li>
-							<li className="">Awards</li>
-							<li className="">About Us</li>
-							<li className="">Our Factory</li>
-							<li className="">Global Operations</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">TVC</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Articles</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">National</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">International</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Documentary</li>
+							<li className="mb-4 text-base font-light cursor-pointer hover:font-semibold hover:text-blue-600">Special Events</li>
 						</ul>
 					</div>
 				</div>
