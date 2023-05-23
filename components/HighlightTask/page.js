@@ -7,7 +7,7 @@ import { BsArrowRight } from 'react-icons/bs';
 function HighlightTask() {
 	return (
 		<div
-			className="py-36">
+			className="pb-36">
 			<div className="flex flex-row justify-between mb-10">
 				<div className="flex items-center ">
 					<div className="w-3 mr-4 bg-blue-400 h-11">
