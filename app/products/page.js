@@ -8,6 +8,7 @@ import Arrived from '@/components/Arrivied/page'
 import HighlightTask from '@/components/HighlightTask/page'
 import Offer from '@/components/Offer'
 import CountDown from '@/components/CountDown/page';
+import Discount from './Discount'
 
 export const metadata = {
 	title: 'Shop - PowerTech',
@@ -22,6 +23,7 @@ function page() {
 			<WeekDeal />
 			<ProductsHome />
 			<Arrived />
+			<Discount />
 			<HighlightTask />
 			<Offer />
 			<CountDown />
