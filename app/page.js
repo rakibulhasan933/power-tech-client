@@ -11,7 +11,7 @@ import WeekDeal from '@/components/Weekdeal/page'
 export default function Home() {
   return (
     <main className='bg-slate-50'>
-      <div>
+      <div className='mx-40'>
         <Navbar />
         <Banner />
         <Steps />
