@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react';
-import headphone from "../../components/assets/Headphone.jpg";
+import headphone from "../../components/assets/Headphone.png";
 
 function Discount() {
 	return (
@@ -13,7 +13,7 @@ function Discount() {
 						<button className='items-center p-3 text-xl font-bold text-white bg-orange-600 rounded-r '>Get Coupon</button>
 					</div>
 				</div>
-				<div className="p-4 basis-1/4">
+				<div className="p-2 basis-1/4">
 					<Image src={headphone} alt='headphone'></Image>
 				</div>
 			</div>
