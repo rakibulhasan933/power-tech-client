@@ -1,11 +1,26 @@
 import React from 'react'
 import ProductNavbar from './ProductNavbar'
+import Banner from '@/components/Banner/page'
+import Steps from '@/components/Steps/page'
+import WeekDeal from '@/components/Weekdeal/page'
+import ProductsHome from '@/components/ProductsHome/page'
+import Arrived from '@/components/Arrivied/page'
+import HighlightTask from '@/components/HighlightTask/page'
+import Offer from '@/components/Offer'
+import CountDown from '@/components/CountDown/page'
 
 function page() {
 	return (
-		<section>
+		<section className='mx-40'>
 			<ProductNavbar />
-
+			<Banner />
+			<Steps />
+			<WeekDeal />
+			<ProductsHome />
+			<Arrived />
+			<HighlightTask />
+			<Offer />
+			<CountDown />
 		</section>
 	)
 }

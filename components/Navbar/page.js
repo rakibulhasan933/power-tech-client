@@ -30,7 +30,7 @@ function Navbar() {
 								<p className="text-xs font-medium cursor-pointer">Home</p>
 							</div>
 						</Link>
-						<Link href='about'>
+						<Link href='/about'>
 							<p className="mx-4 text-xs font-medium cursor-pointer hover:border-b-4 hover:border-blue-600 hover:text-blue-600">About</p>
 						</Link>
 						<p className="mx-4 text-xs font-medium cursor-pointer hover:border-b-4 hover:border-blue-600 hover:text-blue-600">FAQ</p>
