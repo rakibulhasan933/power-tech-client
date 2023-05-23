@@ -9,7 +9,7 @@ import { AiOutlineHome } from 'react-icons/ai';
 
 function ProductNavbar() {
 	return (
-		<nav>
+		<nav className='py-4'>
 			<div>
 				<div>
 					<div className="flex items-center justify-between p-2">
