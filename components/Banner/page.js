@@ -14,7 +14,7 @@ import control from "../assets/contor-tech.jpg";
 
 function Banner() {
 	return (
-		<div className="mx-40">
+		<div>
 			<Swiper
 				style={{ height: `calc(100vh - 130px)` }}
 				effect={"fade"}
