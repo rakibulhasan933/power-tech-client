@@ -5,7 +5,7 @@ import { MdPayment } from "react-icons/md";
 import { BsBookmark } from "react-icons/bs";
 function Steps() {
 	return (
-		<div className="mx-40">
+		<div>
 			<div className='py-20'>
 				<div className="flex justify-between ">
 					<div className="flex items-center ">
