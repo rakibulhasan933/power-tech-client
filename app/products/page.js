@@ -7,7 +7,11 @@ import ProductsHome from '@/components/ProductsHome/page'
 import Arrived from '@/components/Arrivied/page'
 import HighlightTask from '@/components/HighlightTask/page'
 import Offer from '@/components/Offer'
-import CountDown from '@/components/CountDown/page'
+import CountDown from '@/components/CountDown/page';
+
+export const metadata = {
+	title: 'Shop - PowerTech',
+};
 
 function page() {
 	return (
