@@ -6,7 +6,7 @@ import monitor from "../assets/monitor.jpg";
 
 function WeekDeal() {
 	return (
-		<div className="mx-40">
+		<div>
 			<div className="pt-10">
 				<div className="flex items-center justify-between ">
 					<div className="flex items-center ">
