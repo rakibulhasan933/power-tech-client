@@ -4,9 +4,9 @@ import React from 'react'
 import Image from "next/image";
 import drone from "../assets/drone.jpg";
 
-function Products() {
+function ProductsHome() {
 	return (
-		<div className="mx-40">
+		<div>
 			<div className='py-20'>
 				<div className="flex items-center justify-between ">
 					<div className="flex items-center ">
@@ -80,4 +80,4 @@ function Products() {
 	)
 }
 
-export default Products
+export default ProductsHome

@@ -4,7 +4,7 @@ import CountDown from '@/components/CountDown/page'
 import HighlightTask from '@/components/HighlightTask/page'
 import Navbar from '@/components/Navbar/page'
 import Offer from '@/components/Offer'
-import Products from '@/components/Products/page'
+import ProductsHome from '@/components/ProductsHome/page'
 import Steps from '@/components/Steps/page'
 import WeekDeal from '@/components/Weekdeal/page'
 
@@ -16,7 +16,7 @@ export default function Home() {
         <Banner />
         <Steps />
         <WeekDeal />
-        <Products />
+        <ProductsHome />
         <Arrived />
         <HighlightTask />
         <Offer />
