@@ -4,7 +4,7 @@ import headphone from "../../components/assets/Headphone.png";
 
 function Discount() {
 	return (
-		<div className='bg-blue-300 rounded-md my-36'>
+		<div className='bg-blue-300 rounded-md'>
 			<div className="flex items-center justify-around p-8 basis-3/4 ">
 				<div className="flex flex-col items-center">
 					<h2 className="mb-6 text-5xl font-semibold ">Get <span className='text-orange-600 '>25%</span> Off Discount Coupon</h2>

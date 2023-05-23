@@ -23,7 +23,9 @@ function page() {
 			<WeekDeal />
 			<ProductsHome />
 			<Arrived />
-			<Discount />
+			<div className="mt-36">
+				<Discount />
+			</div>
 			<HighlightTask />
 			<Offer />
 			<CountDown />
