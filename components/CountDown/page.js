@@ -42,7 +42,7 @@ function CountDown() {
 	}, [endDate, endTime]);
 
 	return (
-		<div className='mx-40'>
+		<div>
 			<div className='flex flex-col items-center gap-4 '>
 				<div className="grid gap-2 justify-items-center">
 					<h2 className="mb-3 text-4xl font-normal">Hurry, limited time offer</h2>
