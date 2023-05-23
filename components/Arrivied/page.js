@@ -6,7 +6,7 @@ import mac from "../assets/macbook.jpg";
 
 function Arrived() {
 	return (
-		<div className="mx-40">
+		<div>
 			<div className='pt-20'>
 				<div className="flex items-center justify-between">
 					<div className="flex items-center ">
@@ -15,7 +15,7 @@ function Arrived() {
 						<h2 className="text-5xl font-bold ">Newly Arrived</h2>
 					</div>
 					<div className="">
-						<button className='flex items-center'>more <BsArrowRight className='w-full ' /> </button>
+						<button className='flex items-center'>More <BsArrowRight className='w-full ' /> </button>
 					</div>
 				</div>
 				<div className="grid grid-cols-2 gap-6 pt-20">
