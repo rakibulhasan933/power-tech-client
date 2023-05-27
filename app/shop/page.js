@@ -36,6 +36,24 @@ function ShopCategories() {
 						<button className="px-2 text-xl font-bold text-blue-600 bg-white border border-blue-400 cursor-pointer hover:border-2 py-7 rounded-xl">
 							Battery
 						</button>
+						<button className="px-2 text-xl font-bold text-blue-600 bg-white border border-blue-400 cursor-pointer hover:border-2 py-7 rounded-xl">
+							Battery
+						</button>
+						<button className="px-2 text-xl font-bold text-blue-600 bg-white border border-blue-400 cursor-pointer hover:border-2 py-7 rounded-xl">
+							Battery
+						</button>
+						<button className="px-2 text-xl font-bold text-blue-600 bg-white border border-blue-400 cursor-pointer hover:border-2 py-7 rounded-xl">
+							Battery
+						</button>
+						<button className="px-2 text-xl font-bold text-blue-600 bg-white border border-blue-400 cursor-pointer hover:border-2 py-7 rounded-xl">
+							Battery
+						</button>
+						<button className="px-2 text-xl font-bold text-blue-600 bg-white border border-blue-400 cursor-pointer hover:border-2 py-7 rounded-xl">
+							Battery
+						</button>
+						<button className="px-2 text-xl font-bold text-blue-600 bg-white border border-blue-400 cursor-pointer hover:border-2 py-7 rounded-xl">
+							Battery
+						</button>
 					</div>
 					<div className='py-20'>
 						<div className="flex justify-between ">
