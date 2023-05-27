@@ -36,9 +36,13 @@ function ProductNavbar() {
 							<Link href='/about'>
 								<p className="mx-4 text-xs font-medium cursor-pointer hover:text-blue-600 hover:border-b-4 hover:border-blue-600">About</p>
 							</Link>
-							<p className="mx-4 text-xs font-medium cursor-pointer hover:border-b-4 hover:border-blue-600 hover:text-blue-600">FAQ</p>
+
 							<Link href='/products'>
-								<p className="mx-4 text-xs font-medium text-blue-600 border-b-4 border-blue-600 cursor-pointer">Shop</p>
+								<p className="mx-4 text-xs font-medium text-blue-600 border-b-4 border-blue-600 cursor-pointer">Products</p>
+							</Link>
+							<p className="mx-4 text-xs font-medium cursor-pointer hover:border-b-4 hover:border-blue-600 hover:text-blue-600">FAQ</p>
+							<Link href='/shop'>
+								<p className="mx-4 text-xs font-medium cursor-pointer hover:text-blue-600 hover:border-b-4 hover:border-blue-600">Shop</p>
 							</Link>
 							<p className="text-xs font-medium cursor-pointer hover:border-b-4 hover:border-blue-800">Contacts</p>
 							<p className="px-3 py-1 ml-4 text-sm text-white bg-blue-700 rounded-md cursor-pointer hover:text-base">Login</p>
