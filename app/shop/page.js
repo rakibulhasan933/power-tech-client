@@ -3,8 +3,9 @@ import React from 'react'
 import ShopNavbar from './ShopNavbar'
 import { BiCategoryAlt } from 'react-icons/bi';
 import { TbTruckDelivery } from "react-icons/tb";
-import { MdPayment } from "react-icons/md";
+import { MdOutlineArrowBackIos, MdPayment } from "react-icons/md";
 import { BsBookmark } from "react-icons/bs";
+import Link from 'next/link';
 
 function ShopCategories() {
 	return (
@@ -55,6 +56,14 @@ function ShopCategories() {
 								<h3>Saved items</h3>
 							</div>
 						</div>
+					</div>
+					<div className="flex items-center justify-end my-10">
+						<MdOutlineArrowBackIos className='mr-2 text-xl font-normal ' />
+						<Link href='/' >
+							<button className="text-xl font-normal hover:border-b-4 hover:font-semibold hover:border-blue-700">
+								Back
+							</button>
+						</Link>
 					</div>
 				</div>
 			</div>
