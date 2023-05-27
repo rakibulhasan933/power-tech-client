@@ -11,7 +11,7 @@ import CountDown from '@/components/CountDown/page';
 import Discount from './Discount'
 
 export const metadata = {
-	title: 'Shop - PowerTech',
+	title: 'Products - PowerTech',
 };
 
 function page() {
