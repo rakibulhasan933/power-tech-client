@@ -1,4 +1,3 @@
-"use client";
 import React from 'react'
 import ShopNavbar from './ShopNavbar'
 import { BiCategoryAlt } from 'react-icons/bi';
