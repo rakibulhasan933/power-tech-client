@@ -7,6 +7,10 @@ import { MdOutlineArrowBackIos, MdPayment } from "react-icons/md";
 import { BsBookmark } from "react-icons/bs";
 import Link from 'next/link';
 
+export const metadata = {
+	title: 'Categories - PowerTech',
+};
+
 function ShopCategories() {
 	return (
 		<section className=' bg-slate-50'>
