@@ -3,6 +3,7 @@ import { BiCategoryAlt } from 'react-icons/bi';
 import { TbTruckDelivery } from "react-icons/tb";
 import { MdPayment } from "react-icons/md";
 import { BsBookmark } from "react-icons/bs";
+import Link from 'next/link';
 function Steps() {
 	return (
 		<div>
