@@ -10,22 +10,30 @@ function ShopFooter() {
 		<div>
 			<div className='py-20'>
 				<div className="flex justify-between ">
-					<div className="flex items-center ">
-						<BiCategoryAlt className='mr-2 text-3xl' />
-						<h3>Categories</h3>
-					</div>
-					<div className="flex items-center ">
-						<TbTruckDelivery className='mr-2 text-3xl' />
-						<h3>Shipping</h3>
-					</div>
-					<div className="flex items-center ">
-						<MdPayment className='mr-2 text-3xl' />
-						<h3>Payment</h3>
-					</div>
-					<div className="flex items-center ">
-						<BsBookmark className='mr-2 text-3xl' />
-						<h3>Saved items</h3>
-					</div>
+					<Link href="/shop">
+						<div className="flex items-center active:text-blue-700 hover:text-blue-600">
+							<BiCategoryAlt className='mr-2 text-3xl' />
+							<h3 className='text-xl font-normal ' >Categories</h3>
+						</div>
+					</Link>
+					<Link href="shop/shipping">
+						<div className="flex items-center hover:text-blue-600 ">
+							<TbTruckDelivery className='mr-2 text-3xl' />
+							<h3 className='text-xl font-normal '>Shipping</h3>
+						</div>
+					</Link>
+					<Link href="shop/payment">
+						<div className="flex items-center hover:text-blue-600 ">
+							<MdPayment className='mr-2 text-3xl' />
+							<h3 className='text-xl font-normal '>Payment</h3>
+						</div>
+					</Link>
+					<Link href="shop/save-item">
+						<div className="flex items-center hover:text-blue-600 ">
+							<BsBookmark className='mr-2 text-3xl' />
+							<h3 className='text-xl font-normal '>Saved items</h3>
+						</div>
+					</Link>
 				</div>
 			</div>
 			<div className="flex items-center justify-end my-10">
