@@ -41,7 +41,7 @@ function SavesItem() {
 					<div className="flex flex-col items-center">
 						<h3 className="mb-5 text-xl font-medium ">Drone</h3>
 						<h2 className="mb-5 text-3xl font-semibold text-orange-500 ">$305</h2>
-						<div className="flex flex-row items-center gap-0 mb-5">
+						<div className="flex flex-row items-center gap-0 mb-8">
 							<BsFillStarFill className='text-xs text-amber-600' />
 							<p className="ml-1 text-xs">(4.9)</p>
 						</div>
@@ -54,7 +54,7 @@ function SavesItem() {
 					<div className="flex flex-col items-center">
 						<h3 className="mb-5 text-xl font-medium ">Drone</h3>
 						<h2 className="mb-5 text-3xl font-semibold text-orange-500 ">$305</h2>
-						<div className="flex flex-row items-center gap-0 mb-5">
+						<div className="flex flex-row items-center gap-0 mb-8">
 							<BsFillStarFill className='text-xs text-amber-600' />
 							<p className="ml-1 text-xs">(4.9)</p>
 						</div>
@@ -67,7 +67,7 @@ function SavesItem() {
 					<div className="flex flex-col items-center">
 						<h3 className="mb-5 text-xl font-medium ">Drone</h3>
 						<h2 className="mb-5 text-3xl font-semibold text-orange-500 ">$305</h2>
-						<div className="flex flex-row items-center gap-0 mb-5">
+						<div className="flex flex-row items-center gap-0 mb-8">
 							<BsFillStarFill className='text-xs text-amber-600' />
 							<p className="ml-1 text-xs">(4.9)</p>
 						</div>
@@ -80,7 +80,7 @@ function SavesItem() {
 					<div className="flex flex-col items-center">
 						<h3 className="mb-5 text-xl font-medium ">Drone</h3>
 						<h2 className="mb-5 text-3xl font-semibold text-orange-500 ">$305</h2>
-						<div className="flex flex-row items-center gap-0 mb-5">
+						<div className="flex flex-row items-center gap-0 mb-8">
 							<BsFillStarFill className='text-xs text-amber-600' />
 							<p className="ml-1 text-xs">(4.9)</p>
 						</div>
@@ -93,7 +93,7 @@ function SavesItem() {
 					<div className="flex flex-col items-center">
 						<h3 className="mb-5 text-xl font-medium ">Drone</h3>
 						<h2 className="mb-5 text-3xl font-semibold text-orange-500 ">$305</h2>
-						<div className="flex flex-row items-center gap-0 mb-5">
+						<div className="flex flex-row items-center gap-0 mb-8">
 							<BsFillStarFill className='text-xs text-amber-600' />
 							<p className="ml-1 text-xs">(4.9)</p>
 						</div>
@@ -106,7 +106,7 @@ function SavesItem() {
 					<div className="flex flex-col items-center">
 						<h3 className="mb-5 text-xl font-medium ">Drone</h3>
 						<h2 className="mb-5 text-3xl font-semibold text-orange-500 ">$305</h2>
-						<div className="flex flex-row items-center gap-0 mb-5">
+						<div className="flex flex-row items-center gap-0 mb-8">
 							<BsFillStarFill className='text-xs text-amber-600' />
 							<p className="ml-1 text-xs">(4.9)</p>
 						</div>
