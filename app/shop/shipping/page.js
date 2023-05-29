@@ -10,9 +10,9 @@ function Shipping() {
 					<h2 className='ml-3 text-5xl font-bold'>Shipping</h2>
 				</div>
 			</div>
-			<div className="">
+			<div className="mb-10">
 				<h2 className="mb-6 text-2xl font-bold text-blue-700">Delivery Options</h2>
-				<ul className="flex flex-col px-8 list-disc">
+				<ul className="flex flex-col px-10 list-disc">
 					<li className="my-6 text-lg font-normal">
 						Standard Delivery: Estimated delivery time of 3-5 business days.
 					</li>
@@ -25,9 +25,22 @@ function Shipping() {
 					<li className="my-6 text-lg font-normal">International Delivery: Delivery time varies based on the destination country.</li>
 				</ul>
 			</div>
-			<div className=""></div>
-			<div className=""></div>
-			<div className=""></div>
+			<div className="my-10">
+				<h2 className="mb-6 text-2xl font-bold text-blue-700">Delivery Tracking</h2>
+				<ul className="flex flex-col px-10 list-disc">
+					<li className="my-6 text-lg font-normal">
+						Track Your Order: Enter your order number to track the status of your delivery.
+					</li>
+					<li className="my-6 text-lg font-normal">
+						Shipment Updates: Receive email notifications with updates on your order's progress.
+					</li>
+					<li className="my-6 text-lg font-normal">
+						Estimated Delivery Date: Get an estimated delivery date for your order.
+					</li>
+				</ul>
+			</div>
+			<div className="my-10"></div>
+			<div className="my-10"></div>
 		</div>
 	)
 }
