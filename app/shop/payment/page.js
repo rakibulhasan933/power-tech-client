@@ -11,7 +11,11 @@ function Payment() {
 				<h2 className='ml-3 text-5xl font-bold' >Categories</h2>
 			</div>
 			<div className="mb-12">
-				<h2 className="my-6 text-2xl font-bold text-blue-800 ">Payment by Debit Card</h2>
+				<h2 className="my-6 text-2xl font-bold text-blue-700 ">Payment By Debit Card</h2>
+				<Image src={paymentImg} alt='cart' />
+			</div>
+			<div className="my-12">
+				<h2 className="my-6 text-2xl font-bold text-blue-700 ">Payment By Mobile Banking</h2>
 				<Image src={paymentImg} alt='cart' />
 			</div>
 		</div>
