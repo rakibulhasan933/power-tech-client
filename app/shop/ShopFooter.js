@@ -28,7 +28,7 @@ function ShopFooter() {
 							<h3 className='text-xl font-normal '>Payment</h3>
 						</div>
 					</Link>
-					<Link href="shop/save-item">
+					<Link href="shop/saves-item">
 						<div className="flex items-center hover:text-blue-600 ">
 							<BsBookmark className='mr-2 text-3xl' />
 							<h3 className='text-xl font-normal '>Saved items</h3>

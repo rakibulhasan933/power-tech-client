@@ -1,4 +1,3 @@
-import Footer from '@/components/Footer';
 import '../globals.css'
 import { Inter } from 'next/font/google';
 import ShopNavbar from './ShopNavbar';
