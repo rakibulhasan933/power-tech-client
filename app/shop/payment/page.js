@@ -5,8 +5,8 @@ import paymentImg from "../../../components/assets/payment.png";
 
 function Payment() {
 	return (
-		<div className='py-4'>
-			<div className="flex flex-row items-center py-2 my-24">
+		<div className='py-4 my-4'>
+			<div className="flex flex-row items-center py-2 mb-24">
 				<MdPayment className='text-5xl font-bold' />
 				<h2 className='ml-3 text-5xl font-bold' >Categories</h2>
 			</div>
@@ -52,6 +52,34 @@ function Payment() {
 					</li>
 					<li className="my-6 text-lg font-normal">
 						Taxes: Taxes calculated based on your location and applicable laws.
+					</li>
+				</ul>
+			</div>
+			<div className="my-10">
+				<h2 className="mb-6 text-2xl font-bold text-blue-700">Payment Process</h2>
+				<ul className="flex flex-col px-10 list-disc">
+					<li className="my-6 text-lg font-normal">
+						Step 1: Select your preferred payment method during checkout.
+					</li>
+					<li className="my-6 text-lg font-normal">
+						Step 2: Enter your payment details, including card number, expiration date, and CVV.
+					</li>
+					<li className="my-6 text-lg font-normal">
+						Step 3: Review your order and confirm payment.
+					</li>
+					<li className="my-6 text-lg font-normal">
+						Step 4: Receive a confirmation email with your order details and payment receipt.
+					</li>
+				</ul>
+			</div>
+			<div className="my-10">
+				<h2 className="mb-6 text-2xl font-bold text-blue-700">Refunds and Cancellations</h2>
+				<ul className="flex flex-col px-10 list-disc">
+					<li className="my-6 text-lg font-normal">
+						Refund Policy: Review our refund policy for information on refunds and cancellations.
+					</li>
+					<li className="my-6 text-lg font-normal">
+						Processing Time: Allow 7 business days for refunds to be processed back to your original payment method.
 					</li>
 				</ul>
 			</div>
