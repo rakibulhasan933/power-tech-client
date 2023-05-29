@@ -31,7 +31,7 @@ function Arrived() {
 							<p className="my-1 text-xs font-light">See Rich, ibrant colors and incredible
 								contrast, even in well-lit rooms.
 							</p>
-							<h2 className="my-1 text-xl font-bold text-orange-500">$400</h2>
+							<h2 className="my-1 text-xl font-bold text-orange-500 lg:mb-8">$400</h2>
 							<button className='w-full px-4 py-2 text-lg font-bold text-white bg-blue-400 rounded'>Add To Cart</button>
 						</div>
 					</div>
