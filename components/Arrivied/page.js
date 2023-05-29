@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image';
 import React from 'react';
-import { BsArrowRight } from "react-icons/bs";
+import { BsArrowRight, BsFillStarFill } from "react-icons/bs";
 import mac from "../assets/macbook.jpg";
 
 function Arrived() {
@@ -19,68 +19,20 @@ function Arrived() {
 					</div>
 				</div>
 				<div className="grid grid-cols-2 gap-6 pt-20">
-					<div className="flex flex-row p-4 bg-blue-100 rounded">
-						<div className="flex items-center justify-center p-2 basis-1/2">
-							<Image src={mac} className="w-full h-full rounded transition-opacity opacity-0 duration-[1s]"
-								onLoadingComplete={(image) => image.classList.remove("opacity-0")} alt='laptop' />
-						</div>
-						<div className="flex flex-col content-center p-4 basis-1/2">
-							<p className="my-2 text-xs font-light ">Available now</p>
-							<h2 className="my-2 text-xl font-bold ">the new <br />
-								POWERTECH laptop</h2>
-							<p className="my-2 text-xs font-light">See rich, vibrant colors and incredible
+					<div className="flex flex-row items-center bg-blue-100 rounded">
+						<Image src={mac} className='object-cover w-1/2 h-full rounded-md ' alt='laptop' />
+						<div className="flex flex-col justify-start px-4 py-2 ">
+							<div className="flex flex-row items-center gap-0">
+								<BsFillStarFill className='text-xs text-amber-600' />
+								<p className="ml-2 text-xs">(4.9)</p>
+							</div>
+							<p className="my-1 text-xs font-light">Available now</p>
+							<h2 className="my-1 text-xl font-bold">The New POWERTECH Laptop</h2>
+							<p className="my-1 text-xs font-light">See Rich, ibrant colors and incredible
 								contrast, even in well-lit rooms.
 							</p>
-							<h2 className="mb-6 text-xl font-bold text-orange-500">$400</h2>
-							<button className='w-full px-8 py-4 text-lg font-bold text-white bg-blue-400 rounded '>Add To Cart</button>
-						</div>
-					</div>
-					<div className="flex flex-row p-4 bg-blue-100 rounded">
-						<div className="flex items-center justify-center p-2 basis-1/2">
-							<Image src={mac} className="w-full h-full rounded transition-opacity opacity-0 duration-[1s]"
-								onLoadingComplete={(image) => image.classList.remove("opacity-0")} alt='laptop' />
-						</div>
-						<div className="flex flex-col content-center p-4 basis-1/2">
-							<p className="my-2 text-xs font-light ">Available now</p>
-							<h2 className="my-2 text-xl font-bold ">the new <br />
-								POWERTECH laptop</h2>
-							<p className="my-2 text-xs font-light">See rich, vibrant colors and incredible
-								contrast, even in well-lit rooms.
-							</p>
-							<h2 className="mb-6 text-xl font-bold text-orange-500">$400</h2>
-							<button className='w-full px-8 py-4 text-lg font-bold text-white bg-blue-400 rounded '>Add To Cart</button>
-						</div>
-					</div>
-					<div className="flex flex-row p-4 bg-blue-100 rounded">
-						<div className="flex items-center justify-center p-2 basis-1/2">
-							<Image src={mac} className="w-full h-full rounded transition-opacity opacity-0 duration-[1s]"
-								onLoadingComplete={(image) => image.classList.remove("opacity-0")} alt='laptop' />
-						</div>
-						<div className="flex flex-col content-center p-4 basis-1/2">
-							<p className="my-2 text-xs font-light ">Available now</p>
-							<h2 className="my-2 text-xl font-bold ">the new <br />
-								POWERTECH laptop</h2>
-							<p className="my-2 text-xs font-light">See rich, vibrant colors and incredible
-								contrast, even in well-lit rooms.
-							</p>
-							<h2 className="mb-6 text-xl font-bold text-orange-500">$400</h2>
-							<button className='w-full px-8 py-4 text-lg font-bold text-white bg-blue-400 rounded '>Add To Cart</button>
-						</div>
-					</div>
-					<div className="flex flex-row p-4 bg-blue-100 rounded">
-						<div className="flex items-center justify-center p-2 basis-1/2">
-							<Image src={mac} className="w-full h-full rounded transition-opacity opacity-0 duration-[1s]"
-								onLoadingComplete={(image) => image.classList.remove("opacity-0")} alt='laptop' />
-						</div>
-						<div className="flex flex-col content-center p-4 basis-1/2">
-							<p className="my-2 text-xs font-light ">Available now</p>
-							<h2 className="my-2 text-xl font-bold ">the new <br />
-								POWERTECH laptop</h2>
-							<p className="my-2 text-xs font-light">See rich, vibrant colors and incredible
-								contrast, even in well-lit rooms.
-							</p>
-							<h2 className="mb-6 text-xl font-bold text-orange-500">$400</h2>
-							<button className='w-full px-8 py-4 text-lg font-bold text-white bg-blue-400 rounded '>Add To Cart</button>
+							<h2 className="my-1 text-xl font-bold text-orange-500">$400</h2>
+							<button className='w-full px-4 py-2 text-lg font-bold text-white bg-blue-400 rounded'>Add To Cart</button>
 						</div>
 					</div>
 				</div>
