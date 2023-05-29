@@ -20,7 +20,6 @@ export default function ShopLayout({ children }) {
 					{children}
 					<ShopFooter />
 				</div>
-				<Footer />
 			</div>
 		</div>
 	)
