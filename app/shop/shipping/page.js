@@ -50,7 +50,17 @@ function Shipping() {
 					</li>
 				</ul>
 			</div>
-			<div className="my-10"></div>
+			<div className="my-10">
+				<h2 className="mb-6 text-2xl font-bold text-blue-700">Returns and Exchanges</h2>
+				<ul className="flex flex-col px-10 list-disc">
+					<li className="my-6 text-lg font-normal">
+						Return Policy: Review our return policy for information on returns and exchanges.
+					</li>
+					<li className="my-6 text-lg font-normal">
+						Return Shipping: Understand the process and cost associated with returning an item.
+					</li>
+				</ul>
+			</div>
 		</div>
 	)
 }
