@@ -7,8 +7,11 @@ import { AiOutlineHome } from "react-icons/ai";
 import logo from '../assets/logo.png';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useSession, signIn, signOut } from "next-auth/react"
 
 function Navbar() {
+	const { data: session } = useSession();
+	console.log(session, 'users login');
 	return (
 		<nav>
 			<div>
@@ -41,7 +44,7 @@ function Navbar() {
 							<p className="mx-4 text-xs font-medium cursor-pointer hover:border-b-4 hover:border-blue-600 hover:text-blue-600">Shop</p>
 						</Link>
 						<p className="text-xs font-medium cursor-pointer hover:border-b-4 hover:border-blue-800">Contacts</p>
-						<p className="px-3 py-1 ml-4 text-sm text-white bg-blue-700 rounded-md cursor-pointer hover:text-base">Login</p>
+						<button onClick={() => signIn()} className="px-3 py-1 ml-4 text-sm text-white bg-blue-700 rounded-md cursor-pointer hover:text-base">Login</button>
 					</div>
 				</div>
 			</div>
