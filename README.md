@@ -1,1 +1,1 @@
-## Power Tech Getting 
+## Power Tech
